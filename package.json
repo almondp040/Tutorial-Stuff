@@ -1,0 +1,24 @@
+{
+  "name": "tutorial-stuff",
+  "version": "1.0.0",
+  "description": "The first project for the HTML and CSS intro!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almondp040/Tutorial-Stuff.git"
+  },
+  "keywords": [],
+  "author": "almondp040",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/almondp040/Tutorial-Stuff/issues"
+  },
+  "homepage": "https://github.com/almondp040/Tutorial-Stuff#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
