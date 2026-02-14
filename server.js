@@ -9,3 +9,7 @@ app.use(express.static(path.join(__dirname, "public")));
 const appListen = app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
 });
+
+app.get("/home", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "jokes.html"));
+});
