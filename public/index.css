@@ -1,70 +1,59 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('https://images7.alphacoders.com/123/1233933.png');
-    background-size: cover;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://images7.alphacoders.com/123/1233933.png");
+  background-size: cover;
 }
 
-
-
 .emailContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-    align-items: left;
-    border-radius: 50px;
-    background-color: rgba(255, 255, 255, 0); /* Semi-transparent background */
-    padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: left;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0); /* Semi-transparent background */
+  padding: 50px;
 }
 
 .labels {
-    color: white;
-    font-size: 18px;
-    font-family: 'Zalando Sans Expanded', sans-serif;
+  color: white;
+  font-size: 18px;
+  font-family: "Zalando Sans Expanded", sans-serif;
 }
 
 .inputs {
-    padding: 5px;
-    border-radius: 8px;
-    border: 1px solid #cccccc09;
-    font-size: 16px;
-    width: 250px;
-    color: white;
-    background-color: rgba(255, 255, 255, 0.158);
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid #cccccc09;
+  font-size: 16px;
+  width: 250px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.158);
 }
 
 .inputs:focus {
   color: white;
 }
 
-
-.buttonContainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 10px;
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .button {
-    padding: 10px 50px;
-    border: none;
-    border-radius: 25px;
-    background-color: rgba(255, 255, 255, 0.158);
-    color: white;
-    font-size: 18px;
-    cursor: pointer;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.158);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 .button:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
-
-
- 
-
-
-
-
-
