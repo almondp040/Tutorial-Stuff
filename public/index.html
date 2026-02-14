@@ -9,42 +9,56 @@ centered in the middle of the page, find cool CSS styles online
 
 -->
 
-
-
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Google Font Stuff -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+
     <title>Welcome</title>
-</head>
-<body >
+  </head>
+  <body>
+    <div class="emailContainer">
+      <!-- Email label and input -->
+      <label for="email" class="labels">Email</label>
+      <input
+        type="email"
+        name="email"
+        id=""
+        placeholder="Enter Your Email"
+        class="inputs"
+      />
 
-    
-        <div class="emailContainer">
-        <!-- Email label and input -->
-        <label for="email" class="labels">Email</label>
-        <input type="email" name="email" id="" placeholder="Enter Your Email" class="inputs">
+      <!-- Password label and input -->
+      <label for="password" class="labels">Password</label>
+      <input
+        type="password"
+        name="password"
+        id=""
+        placeholder="Enter Your Password"
+        class="inputs"
+      />
 
-        <!-- Password label and input -->
-        <label for="password" class="labels">Password</label>
-        <input type="password" name="password" id="" placeholder="Enter Your Password" class="inputs">
-
-        <!-- Begin Button -->
-        <div class="buttonContainer">
-            <a href="/home" class="button">Begin</a>
-        </div>
-        
-        </div>
-
-</body>
-<script type="module" src="index.js"></script>
+      <!-- Begin Button -->
+      <div class="buttonContainer">
+        <button class="button" id="button">Begin</button>
+      </div>
+    </div>
+  </body>
+  <script type="module" src="index.js"></script>
 </html>
