@@ -4,14 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Here's a joke</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="jokes.css" />
   </head>
   <body>
     <!-- Add the joke HTML item -->
-    <p id="jokesParagraph"></p>
+    <div class="jokesContainerBox">
+      <p id="jokesParagraph" class="jokesParagraph"></p>
 
-    <!-- Add the punchline HTML item -->
-    <p id="jokesPunchline" class="jokesPunchline">Place Punch Line Here</p>
+      <!-- Add the punchline HTML item -->
+      <p id="jokesPunchline" class="jokesPunchline">Place Punch Line Here</p>
+
+      <!-- Add a jokes button -->
+      <button id="newJokeButton" class="newJokeButton">New Joke</button>
+    </div>
   </body>
   <script type="module" src="jokesAPI.js"></script>
   <script type="module" src="jokes.js"></script>
