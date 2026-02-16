@@ -17,3 +17,10 @@ const populateJokes = () => {
 };
 
 populateJokes();
+
+
+//Upon clicking on the setup we want to change the display to be visible
+jokesParagraph.addEventListener("click", () => {
+  //change the color to black to make the punchline visible
+  jokesPunchline.style.color = "black";
+});
