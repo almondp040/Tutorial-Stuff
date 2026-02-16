@@ -1,10 +1,52 @@
 /* Style this last! */
-.jokesPunchline{
-    /* Start off invis since the punchline should be invis on load */
-    visibility: hidden;
+body {
+  background: #020024;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgb(15, 61, 0) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
+.jokesContainerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 10px;
+}
 
-.newJokeButton{
-    visibility: hidden;
+.jokesParagraph {
+  color: white;
+  font-size: 80px;
+}
+
+/* What styles do we want here? Always Sunny In Philly Theme */
+.jokesPunchline {
+  /* Start off invis since the punchline should be invis on load */
+  visibility: hidden;
+  color: white;
+  font-size: 80px;
+}
+
+.newJokeButton {
+  visibility: hidden;
+  font-family: "Tangerine", cursive;
+  padding: 35px 110px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-size: 80px;
+  cursor: pointer;
+  text-decoration: none;
 }

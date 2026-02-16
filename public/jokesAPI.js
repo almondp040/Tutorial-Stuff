@@ -1,5 +1,4 @@
 // This will contain our code for using different apis
-
 export const grabJokeFromAPI = async () => {
   try {
     return fetch("https://official-joke-api.appspot.com/random_joke")
@@ -17,5 +16,3 @@ export const grabJokeFromAPI = async () => {
     console.error("Error fetching joke:", error);
   }
 };
-
-
