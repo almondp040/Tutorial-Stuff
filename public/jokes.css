@@ -1,1 +1,5 @@
 /* Style this last! */
+.jokesPunchline{
+    /* Start off invis since the punchline should be invis on load */
+    display: none;
+}
